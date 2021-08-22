@@ -1,0 +1,25 @@
+nv-codec-headers (11.1.5.0-0debian) unstable; urgency=medium
+
+  * Update headers from Video SDK 11.1
+
+ -- Timo Rothenpieler <timo@rothenpieler.org>  Tue, 03 Aug 2021 18:07:58 +0200
+
+nv-codec-headers (10.0.26.1-0debian) unstable; urgency=medium
+
+  * Bump for (in-dev) 10.0.26.1
+
+ -- Timo Rothenpieler <timo@rothenpieler.org>  Wed, 01 Jul 2020 16:19:25 +0200
+
+nv-codec-headers (9.1.23.1-0ubuntu2) groovy; urgency=medium
+
+  * debian/libffmpeg-nvenc-dev.install: 
+    - remove the buggy .install, it's not needed since it's a single binary
+      including all available files, also it's using a wrong prefix
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Fri, 09 Oct 2020 11:11:44 +0200
+
+nv-codec-headers (9.1.23.1-0ubuntu1) focal; urgency=medium
+
+  * Initial release. (LP: #1866709)
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Mon, 09 Mar 2020 21:16:35 +0000

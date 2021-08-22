@@ -1,0 +1,11 @@
+Author: Martin Wimpress <code@flexion.org>
+Description: Change PREFIX from /usr/local to /usr
+
+--- a/Makefile
++++ b/Makefile
+@@ -1,4 +1,4 @@
+-PREFIX = /usr/local
++PREFIX = /usr
+ LIBDIR = lib
+ INSTALL = install
+ SED = sed
